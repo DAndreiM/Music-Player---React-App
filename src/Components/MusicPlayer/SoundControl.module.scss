@@ -1,0 +1,53 @@
+.sound-control-input {
+    position: relative;
+    height: 0.25rem;
+    width: 10rem;
+    background-color: grey;
+    border-radius: 2px;
+  
+    .sound-control-input::-webkit-slider-runnable-track {
+        height: 100%;
+        background-color: white;
+        border-radius: 2px;
+      }
+      
+      .sound-control-input::-webkit-slider-thumb {
+        position: relative;
+        appearance: none;
+        height: 0.3rem;
+        width: 0.6rem;
+        background-color: white;
+        border-radius: 2px;
+      }
+      
+      .sound-control-input::-moz-range-track {
+        height: 100%;
+        background-color: white;
+        border-radius: 2px;
+      }
+      
+      .sound-control-input::-moz-range-thumb {
+        position: relative;
+        appearance: none;
+        height: 0.3rem;
+        width: 0.6rem;
+        background-color: white;
+        border-radius: 2px;
+      }
+      
+      .sound-control-input::-ms-track {
+        height: 100%;
+        background-color: white;
+        border-radius: 2px;
+      }
+      
+      .sound-control-input::-ms-thumb {
+        position: relative;
+        appearance: none;
+        height: 0.3rem;
+        width: 0.6rem;
+        background-color: white;
+        border-radius: 2px;
+      }
+}
+  

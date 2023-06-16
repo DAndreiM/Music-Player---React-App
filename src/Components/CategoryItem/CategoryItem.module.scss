@@ -1,0 +1,51 @@
+.description{
+    background-color: rgb(128, 128, 128, 0.02);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:0.2rem;
+    color:white;
+    padding-top: 4rem;
+
+
+    p:last-of-type{
+        display:flex;
+        align-items: center;
+        gap:0.2rem;
+    }
+
+    a{
+        color:white;
+        padding-bottom: 1px;
+    }
+
+    a:hover{
+        border-bottom: 1px solid white;
+    }
+}
+
+.playListOptions{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    padding:1rem;
+    
+    button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        height:100%;
+    }
+    button:hover{
+        transform: scale(1.02);
+    }
+    button:active{
+        transform: scale(1);
+    }
+    button:last-of-type{
+        color:grey;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+}

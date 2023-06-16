@@ -1,0 +1,19 @@
+.root{
+    display:grid;
+    grid-template-columns: minmax(12rem, 23rem) auto;
+    grid-template-areas: "header main";
+    gap:0.5rem;
+    position:relative;
+    
+    header{
+        grid-area: header;
+        position: sticky;
+        top:0;
+        height:100vh;
+    }
+
+    main{
+        grid-area: main;
+    }
+}
+

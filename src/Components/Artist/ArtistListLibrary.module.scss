@@ -1,0 +1,32 @@
+.artists{
+    margin-top: 1rem;
+    img{
+        height:3rem;
+        width:3rem;
+        background-color: rgba(0,0,0,0.4);
+        border-radius: 50%;
+        object-fit: cover;
+        color:white;
+    }
+    a{
+        display:flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+        gap:0.5rem;
+        transition: all 0.2s;
+        border-radius: 10px;
+    }
+
+    a:hover{
+        background-color: grey;
+    }
+
+    h4{
+        color:white;
+        font-weight: normal;
+    }
+
+    p{
+        color:grey;
+    }
+}

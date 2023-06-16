@@ -1,0 +1,17 @@
+.progress-bar {
+  position: relative;
+  height: 0.25rem;
+  width: 18rem;
+  background-color: grey;
+  cursor: pointer;
+  display:flex;
+}
+
+.progress-bar__bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: white;
+  transition: width 0.2s ease-in-out;
+}

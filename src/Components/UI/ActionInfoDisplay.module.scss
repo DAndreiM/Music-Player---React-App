@@ -1,0 +1,25 @@
+.infoDisplayBody{
+    background-color: white;
+    z-index: 1001;
+    position: fixed;
+    right:0;
+    top:10%;
+    width:10rem;
+    height:3rem;
+    color:black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    p{
+        padding-top: 0.6rem;
+        margin-left: 0.5rem;
+    }
+}
+
+.progressBar{
+    height:0.2rem;
+    transition: all 0.2s;
+}
